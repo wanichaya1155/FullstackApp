@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <style>
+        .top{
+            width: 100%;
+            height: 80px;
+            background-color: #161a60;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+        .top h1{
+            color: aliceblue;
+            margin: 0;
+            padding: 20px;
+        }
+        .text_box{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+        p{
+            margin: 0.25rem;
+            padding: 10px;
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 200px;
+            border: 1px solid #9a9a9a;
+            border-radius: 4px;
+            margin-right: 5px;
+        }
+        input[type="submit"]{
+            padding: 10px;
+            border-radius: 4px;
+            margin: 10px 0px 0px 10px;
+            background: rgb(32, 135, 32);
+            color: white;
+            font-weight: bold;
+        }
+        input[type="reset"]{
+            padding:  10px 20px 10px 20px;
+            border-radius: 4px;
+            margin: 10px 0px 0px 10px;
+            background: rgb(167, 52, 52);
+            color: white;
+            font-weight: bold;
+        }
+        img{
+            width: 50px;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <center>
+    <div class="top">
+        <h1>Log in</h1>
+    </div>
+    <form method="post" action="checkUserNameAndPass.php">
+    <!-- <form method="post" action="index.php"> -->
+        <div class="text_box">
+            <p>ชื่อผู้ใช้</p><input type="text" name="userName" size="20" maxlength="50">
+        </div>
+        <div class="text_box">
+            <p>รหัสผ่าน</p><input type="text" name="password" size="20" maxlength="50">
+        </div>
+        <input type="submit" value="เข้าสู่ระบบ">
+        <input type="reset" value="ยกเลิก">
+        <p>เข้าสู่ระบบด้วยช่องทางอื่นๆ</p>
+        <a href="" >
+            <img src="img/google.png">
+        </a>
+    </form>
+</center>
+</body>
+</html>

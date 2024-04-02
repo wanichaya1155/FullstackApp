@@ -1,0 +1,32 @@
+{
+    "products": [
+      {
+        "code": "p0001",
+        "description": "เป็นผลิตภัณฑ์จากปลาน้ำจืดที่นำมาหมักทั้งตัวหรือเอาเฉพาะเนื้อร่วมกับข้าวนึ่งสุก และกระเทียม จนได้ผลิตภัณฑ์ปลาส้มที่มีรสเปรี้ยว เนื้อปลานุ่ม มีกลิ่นหอม นิยมรับประทานกันในทุกภาค"
+      },
+      {
+        "code": "p0002",
+        "description": "fgnjkhjkdhogkhotkokmvmjdjnnnjfjfgjtiivmbmkit"
+      }
+      ,
+      {
+        "code": "p0003",
+        "description": "fgnjkhjkdhogkhotkokmvmjdjnnnjfjfgjtiivmbmkit"
+      }
+      ,
+      {
+        "code": "p0004",
+        "description": "fgnjkhjkdhogkhotkokmvmjdjnnnjfjfgjtiivmbmkit"
+      }
+      ,
+      {
+        "code": "p0005",
+        "description": "fgnjkhjkdhogkhotkokmvmjdjnnnjfjfgjtiivmbmkit"
+      }
+      ,
+      {
+        "code": "p0006",
+        "description": "fgnjkhjkdhogkhotkokmvmjdjnnnjfjfgjtiivmbmkit"
+      }
+    ]
+}
